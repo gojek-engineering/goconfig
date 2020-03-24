@@ -1,7 +1,7 @@
 package goconfig
 
 import (
-	"github.com/newrelic/go-agent"
+	newrelic "github.com/newrelic/go-agent"
 	"github.com/spf13/viper"
 )
 
@@ -14,4 +14,3 @@ func getNewRelicConfigOrPanic() newrelic.Config {
 	}
 	return config
 }
-

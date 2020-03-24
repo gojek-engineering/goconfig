@@ -2,6 +2,7 @@ package goconfig
 
 import (
 	"testing"
+
 	"github.com/stretchr/testify/assert"
 )
 
@@ -25,7 +26,3 @@ func TestInvalidLabelString(t *testing.T) {
 	_, err := parseNewRelicLabels("foo:bar;go:o:car")
 	assert.Error(t, err)
 }
-
-
-
-

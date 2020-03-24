@@ -1,11 +1,11 @@
 package goconfig_test
 
 import (
-	"goconfig"
 	"io/ioutil"
 	"testing"
 	"time"
 
+	"github.com/gojek-engineering/goconfig"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
